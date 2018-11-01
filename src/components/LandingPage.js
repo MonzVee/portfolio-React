@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid , Cell } from 'react-mdl';
-import avatar from '../images/monz.jpg';
+import avatar from '../images/face.jpg';
 
 
 class LandingPage extends Component {
@@ -17,7 +17,7 @@ class LandingPage extends Component {
                 <hr />
                 <p>
                     HTML/CSS | Bootstrap | JavaScript | React | NodeJs | Express |
-                    MongoDB
+                    MongoDB | Phyton | Django
 
                 </p>
                 <div className ="social-links">
@@ -25,8 +25,7 @@ class LandingPage extends Component {
                 <a
                     href = "https://www.google.com"
                     rel="noopener noreferrer"
-                    target = "_blank"
-                    >
+                    target = "_blank">
                     <i className= "fa fa-linkedin-square" aria-hidden = "true" />
                     </a>
                 {/*GitHub */}
